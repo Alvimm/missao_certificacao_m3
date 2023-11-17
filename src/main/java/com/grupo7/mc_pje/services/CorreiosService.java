@@ -4,8 +4,8 @@
  */
 package com.grupo7.mc_pje.services;
 
-import entities.Endereco;
-import entities.EnderecoCorreios;
+import com.grupo7.mc_pje.entities.Endereco;
+import com.grupo7.mc_pje.entities.EnderecoCorreios;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

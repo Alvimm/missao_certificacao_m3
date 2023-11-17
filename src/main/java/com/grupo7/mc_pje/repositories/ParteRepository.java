@@ -8,4 +8,6 @@ import java.util.UUID;
 
 @Repository
 public interface ParteRepository  extends JpaRepository<Parte, UUID> {
+
+        Parte findByDocumento(String documento);
 }
